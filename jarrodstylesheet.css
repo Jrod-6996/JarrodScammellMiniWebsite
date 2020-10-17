@@ -1,0 +1,111 @@
+body {
+    background-color: #183029;
+    color: darkorange;
+    font-family: arial;
+    margin: 0px;
+}
+
+.header {
+    text-align: center;
+}
+
+p {
+    background-color: white;
+    padding: 20px;
+}
+
+
+.column {
+    margin: 0 auto;
+    width: 66.66%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.splash {
+    text-align: center;
+    font-size: 200%;
+}
+
+/*NAV*/
+.splashnav {
+    display: block;
+    text-align: center;
+    padding: 10px 28px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 18px;
+    background-color: darkorange;
+    margin: 10px;
+    font-size: 10pt;
+    ;
+    
+}
+
+a:hover {
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    overflow: hidden;
+    background-color: darkorange;
+}
+
+li {
+    float: left;
+    padding: 5px;
+    color: blue;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 8px 28px;
+    color: black;
+    background-color: darkorange;
+    font-size: 10pt;
+    }
+
+}
+
+.navbar1 {
+    width: 100%;
+    text-align: center;
+    position: top;
+}
+.navbar1 ul {
+    width: 100%;
+    float: none;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.navbar1 a:hover {
+  color: white;
+}
+
+.navbar1 a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar1 a {
+    float: none;
+    display: block;
+    width: 100%;
+    }
+    
+/*Portfolio*/
+    
+    #autumn {
+        transform: rotate(90deg);
+    }
